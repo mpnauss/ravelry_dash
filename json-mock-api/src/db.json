@@ -1,0 +1,34 @@
+{
+    "stash": [
+        {
+            "id": 1,
+            "name": "Stashed 1",
+            "weight_name": "Worsted",
+            "amount_yards": 100 
+        },
+        {
+            "id": 2,
+            "name": "Stashed 2",
+            "weight_name": "Fingering",
+            "amount_yards": 100 
+        },
+        {
+            "id": 3,
+            "name": "Stashed 3",
+            "weight_name": "Aran",
+            "amount_yards": 100 
+        },
+        {
+            "id": 4,
+            "name": "Stashed 4",
+            "weight_name": "Worsted",
+            "amount_yards": 200
+        },
+        {
+            "id": 5,
+            "name": "Stashed 1",
+            "weight_name": "Lace",
+            "amount_yards": 100 
+        }
+    ]
+}
