@@ -1,7 +1,7 @@
 import React from "react"
 import { BrowserRouter, Route } from "react-router-dom"
 
-import StashList from "./StashList"
+import NewStashList from "./NewStashList"
 import AuthResponse from "./AuthResponse";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Route exact path="/" component={AuthResponse} />
-        <Route exact path="/oauth" component={StashList} />
+        <Route exact path="/oauth" component={NewStashList} />
       </BrowserRouter>
     </div>
   );
