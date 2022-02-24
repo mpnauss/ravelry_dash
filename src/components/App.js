@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Route exact path="/" component={AuthResponse} />
-        <Route exact path="/oauth" component={NewStashList} />
+        <Route exact path="/" component={NewStashList} />
+        {/* <Route exact path="/oauth" component={NewStashList} /> */}
       </BrowserRouter>
     </div>
   );
